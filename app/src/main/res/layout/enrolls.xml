@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+
+    <ImageView
+        android:id="@+id/imgEnroll"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/noimg"/>
+
+    <TextView
+        android:id="@+id/cTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Title"
+        android:textColor="#000"
+        android:layout_below="@id/imgEnroll"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/cPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textColor="#000"
+        android:layout_below="@id/cTitle"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cPrice"
+        android:text="View"
+        android:gravity="center"/>
+
+
+
+</RelativeLayout>

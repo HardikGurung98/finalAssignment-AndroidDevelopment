@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1dede"
+    tools:context=".ui.dashboard.teacher.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome, "
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Username"
+                android:textColor="@color/black"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvHowToTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" How to teach on e-learn!? "
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/tvShowGuideLines"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Planning your course carefully will create a clear learning path for students and help you once you film. Think down to the details of each lecture including the skill you’ll teach, estimated video length, practical activities to include, and how you’ll create introductions and summaries. "
+            android:textColor="@color/black"
+            android:textAlignment="inherit"
+            android:textSize="20sp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

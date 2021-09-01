@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F044E"
+    tools:context=".ui.dashboard.teacher.CourseUploadFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Upload Course "
+                android:textSize="35sp"
+                android:textColor="@color/white"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/courseTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Course Title"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <EditText
+                android:id="@+id/coursePrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="Course Price"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <EditText
+                android:id="@+id/courseDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Course Descriptions"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnChooseThumbnail"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Thumbnail"
+                />
+
+            <Button
+                android:id="@+id/btnChooseVideo"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Choose Video"
+                />
+
+
+            <Button
+                android:id="@+id/btnStudentLogin"
+                android:layout_width="310dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:text="Save"
+                android:textColor="#ffff"
+                android:fontFamily="@font/salsa"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/custom_button"
+                android:layout_marginTop="20dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</FrameLayout>

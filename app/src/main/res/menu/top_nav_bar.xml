@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/miCategory"
+        android:title="Category"
+        />
+
+    <item android:id="@+id/miFree"
+        android:title="Free"
+        />
+
+    <item android:id="@+id/miPremium"
+        android:title="Premium"
+        />
+</menu>

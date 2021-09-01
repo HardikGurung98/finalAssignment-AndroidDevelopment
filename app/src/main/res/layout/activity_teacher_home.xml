@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1dede"
+    tools:context=".ui.dashboard.teacher.TeacherDashboardActivity"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#091353"
+            android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/salsa"
+                    android:text="e-Learn !"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="40sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/flContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/topBar"/>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:background="#091353"
+            android:id="@+id/bottomTeacherNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/teacher_bottom_nav"
+            android:layout_alignParentBottom="true"
+            app:itemTextColor="#fff"
+            app:itemIconTint="#fff"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
